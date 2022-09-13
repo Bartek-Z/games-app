@@ -1,0 +1,22 @@
+.header {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.title {
+	position: absolute;
+	top: 2vh;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	letter-spacing: 3px;
+	z-index: 1;
+}
+
+.bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -20%);
+}

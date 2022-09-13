@@ -1,0 +1,28 @@
+.nav {
+	padding: 0 20px 20px 0;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	transition: 0.3s;
+}
+
+.link:hover {
+	transform: translateX(15px);
+}
+
+@media (max-width: 800px) {
+	.link {
+		display: flex;
+		justify-content: center;
+	}
+}
