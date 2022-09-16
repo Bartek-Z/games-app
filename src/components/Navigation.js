@@ -5,7 +5,7 @@ import styles from '../cssModules/Navigation.module.css';
 const list = [
 	{ name: 'Start', path: '/' },
 	{ name: 'FlyBall', path: '/flyball' },
-	{ name: 'Memory', path: '/jumpball' },
+	{ name: 'Memory', path: '/memory' },
 	{ name: 'Snake', path: '/snake' },
 ];
 

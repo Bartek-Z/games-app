@@ -10,7 +10,7 @@ function Page() {
 		<Routes>
 			<Route path="/" element={<Start />} />
 			<Route path="/flyball" element={<FlyBall />} />
-			<Route path="/jumpball" element={<Memory />} />
+			<Route path="/memory" element={<Memory />} />
 			<Route path="/snake" element={<Snake />} />
 		</Routes>
 	);
